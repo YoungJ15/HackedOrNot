@@ -2,4 +2,17 @@
     <string name="app_name">HackedOrNot</string>
     <string name="email_address">Email Address</string>
     <string name="verify">Verify</string>
+    <string name="interstitial_adview">ca-app-pub-6482688051062241/2073544015</string>
+    <!--<string name="native_adview">ca-app-pub-6482688051062241/6951715619</string>-->
+    <string name="native_adview_small">ca-app-pub-6482688051062241/2492346417</string>
+    <string name="email_validation">Email cannot be empty</string>
+    <string name="bad_format">Bad Email Format</string>
+    <string name="not_found_email">Seems to be that your email has not been compromised, but remember "Absence of Evidence is not Evidence of Absence"</string>
+    <string name="base_url">https://hacked-emails.com</string>
+    <string name="no_connection">Failed to load. Internet connection is required</string>
+    <string name="email_hint">Place your Email Address</string>
+    <string name="title_detail_list">Details</string>
+    <string name="title_detail_detail">Detail Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 </resources>

@@ -12,12 +12,31 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MaterialTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".FirstActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".DetailsActivity" />
+        <activity
+            android:name=".DetailListActivity"
+            android:label="@string/title_detail_list"
+            android:theme="@style/MaterialTheme" />
+        <activity
+            android:name=".DetailDetailActivity"
+            android:label="@string/title_detail_detail"
+            android:parentActivityName=".DetailListActivity"
+            android:theme="@style/MaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.solutions.jpd.apps.hackedornot.DetailListActivity" />
         </activity>
     </application>
 
